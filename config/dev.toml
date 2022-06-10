@@ -1,0 +1,14 @@
+# 日志
+[log]
+# 路径
+dir = "/var/log/zzgj-network/med-zzgj-log"
+# 分类
+category = "service"
+# 日志级别
+level = "info"
+# 是否打印到控制台
+std_print = false
+
+
+[server]
+local_http_addr = "0.0.0.0:8088"
